@@ -1,1 +1,156 @@
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan3</title>
+    <style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, sandybrown, white);
+  margin: 0;
+  color: #333; /* Default text color for better readability */
+}
+
+header {
+  background-color: #FF0000; /* red*/
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* Adjusted for dynamic content */
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+  border-right: 3px sandybrown; /* sandybrown border for separation */
+}
+
+nav a {
+  color: #008000; /* green for links */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff; /* White background for content */
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #FF0000; /* red */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid sandybrown; /* brown border */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #F4A460; /* brown header background */
+  color: white; /* White text in the header */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light grey for alternating rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White for alternating rows */
+}
+
+img {
+  display: block;
+  margin: 20px auto; /* Center the image and add vertical margin */
+  max-width: 100%; /* Make sure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    float: none;
+  }
+}
+    </style>
+</head>
+<body>
+  
+   <header>
+        <h2>Bj Habibie</h2>
+    </header>
+    
+    <section>
+        <nav>
+            <ol>
+                <li><a href="https://id.m.wikipedia.org/wiki/B._J._Habibie">Biografi Bj Habibie</a></li>
+                <li><a href="https://news.detik.com/berita/d-4703632/sederet-prestasi-bj-habibie-yang-membanggakan-indonesia">Pencapaian Bj Habibie</a></li>
+                <li><a href="https://www.idntimes.com/life/inspiration/shana-fitri-raihani/5-potret-kehidupan-bj-habibie-ispiratif-c1c2">Inspirasi Bj Habibie</a></li>
+            </ol>
+        </nav>
+        <article>
+            <h1>Peran dalam transisi demokrasi</h1>
+            <p>Sebagai Presiden, Habibie memegang peran kunci dalam transisi Indonesia dari rezim otoriter ke demokrasi. Meskipun masa jabatannya singkat, ia berperan dalam mengakhiri era Orde Baru dan membuka jalan bagi reformasi politik, termasuk kebebasan pers dan pemilu yang lebih demokratis.</p>
+            
+            <img src="/profil-biodata-bj-habibie.jpg" alt="Descriptive Alt Text">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspek</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Definisi</td>
+                        <td>Secara keseluruhan, BJ Habibie memainkan peran kunci dalam membuka jalan bagi demokrasi di Indonesia setelah berakhirnya pemerintahan otoriter Soeharto. Meskipun masa kepemimpinannya singkat, keputusan dan kebijakan yang diambilnya berdampak besar dalam membentuk Indonesia menjadi negara demokrasi seperti yang kita kenal sekarang.</td>
+                    </tr>
+                    <tr>
+                        <td>Sejarah</td>
+                        <td>Selama masa jabatannya, Habibie memimpin Indonesia melalui masa transisi demokrasi yang krusial, termasuk melakukan reformasi politik, melaksanakan pemilu yang bebas pada tahun 1999, serta memberikan otonomi daerah. Salah satu kebijakan paling kontroversialnya adalah mengizinkan referendum di Timor Timur yang berujung pada kemerdekaan wilayah tersebut. </td>
+                    </tr>
+                    <tr>
+                        <td>Kesimpulan</td>
+                        <td>BJ Habibie adalah seorang ilmuwan dan teknokrat Indonesia yang menjadi Presiden ke-3 Indonesia. Ia dikenal karena perannya yang signifikan dalam memimpin transisi demokrasi setelah jatuhnya Orde Baru. Selama masa kepemimpinannya, Habibie mendorong reformasi politik, memperkenalkan kebebasan pers, dan menyelenggarakan pemilu https://github.com/Adli-star/Tio.gityang bebas dan adil. Selain itu, ia juga berjasa dalam perkembangan industri teknologi dan penerbangan Indonesia. Habibie dikenang sebagai tokoh penting yang meletakkan dasar bagi demokrasi modern di Indonesia..</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>              
